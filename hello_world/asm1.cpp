@@ -5,7 +5,7 @@ davisc
 9/4/25
 program will output "hello world"
 */
-// magic words
+
 #include <iostream>
 using namespace std;
 int main()
