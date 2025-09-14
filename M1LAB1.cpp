@@ -26,7 +26,7 @@ cout << "we have " << number_of_items << " " << item_name << endl;
 cout << "Each costs $" << cost_each << endl;
 
 //Calculate total price
-total_cost = number_of_items = cost_each;
+total_cost = number_of_items * cost_each;
 
 //output total results
 cout<<"To purchase all " << number_of_items << " will cost $" << total_cost << " total." << endl;
