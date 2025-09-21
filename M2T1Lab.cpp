@@ -15,7 +15,7 @@ int main() {
 // set up variables
 
     string first_name, last_name, full_name;
-    string product = "lemons"
+    string product = "lemons";
     int amount_purchased;
     double cost_each = 0.55;
     double total_cost;
@@ -46,7 +46,7 @@ int main() {
     cout << setprecision(2) << fixed;
 //results
 
-    cout << "For " << amount _purchased << " " << product << endl;
+    cout << "For " << amount_purchased << " " << product << endl;
     cout << "That will be: $" << total_cost << endl;
     cout << "Thank you for shopping with us!" << endl;
 
