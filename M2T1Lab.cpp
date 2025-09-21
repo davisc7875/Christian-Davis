@@ -36,7 +36,7 @@ cout << "Nice to meet you," << full_name << endl;
 
 //Ask how many lemons customer wants and calculation
 
-cout << "How many " << product << " would you like today?"
+cout << "How many " << product << " would you like today?";
 
 cin >> amount_purchased;
 
