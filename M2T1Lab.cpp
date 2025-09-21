@@ -8,13 +8,15 @@ davisc
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
-// Program acts like a storefront
+// set up variables
 
 string first_name, last_name, full_name;
 string product = "lemons"
+int amount_purchased;
 double cost_each = 0.55;
 double total_cost;
 
@@ -36,8 +38,12 @@ cout << "Nice to meet you," << full_name << endl;
 
 cout << "How many " << product << " would you like today?"
 
-cin >> amount_purchased * cost_each;
+cin >> amount_purchased;
 
+total_cost = amount_purchased * cost_each;
+
+//set prices to 2 decimal places
+cout << setprecision(2) << fixed;
 //results
 
 cout << "For " << amount _purchased << " " << product << endl;
