@@ -13,7 +13,7 @@ int main() {
     //create simple reciept that also handles sales tax
     //declare variables
     string item = "🍕 Pizza";
-    double item_price = 5.00;
+    double item_price = 5.99;
     double tax_percent = 0.08;
     double tax_amount;
     double total;
@@ -24,7 +24,7 @@ int main() {
     //calculate meal price
     //calculate sales tax and total
     tax_amount = item_price * tax_percent;
-    total = item_price * tax_amount;
+    total = item_price + tax_amount;
 
 
 
