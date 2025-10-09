@@ -56,10 +56,10 @@ int main() {
     cout << "Final balance: " << balance << endl;
 
     cout << "Question 2 🎉";
-    cout << "Lets go FTCC!" endl;
-    cout << "Lets go FTCC!" endl;
-    cout << "Lets go FTCC!" endl;
-    cout << "🎉Lets go Trojans!🎉" endl;
+    cout << "Lets go FTCC!" << endl;
+    cout << "Lets go FTCC!" << endl;
+    cout << "Lets go FTCC!" << endl;
+    cout << "🎉Lets go Trojans!🎉" << endl;
 
 
 return 0;
