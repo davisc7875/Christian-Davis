@@ -32,7 +32,7 @@ int main() {
     /* 🤖 okay thanks, how do i use these?
     */
    // Prompt
-    cout << "Please enter the dimensions of the crate in feet" endl;
+    cout << "Please enter the dimensions of the crate in feet:\n";
     cout << "Length?" ;
     cin >> length;
     
@@ -42,7 +42,7 @@ int main() {
     cout << "Height?" ;
     cin >> height;
     // Process
-    volume = length * width
+    volume = length * width * height;
     cost = volume * COST_PER_CUBIC_FOOT;
     charge = volume * CHARGE_PER_CUBIC_FOOT;
     profit = charge - cost;
