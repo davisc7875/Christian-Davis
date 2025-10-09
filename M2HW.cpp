@@ -6,7 +6,9 @@ int main() {
     /*
     INPUT
     Name*/
-    string first_name, last_name, full_name, deposit, withdrawal;
+    string first_name, last_name, full_name;
+    
+    double deposit, withdrawal;
 
     int acc_num = 121348;
 
