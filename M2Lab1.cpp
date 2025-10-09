@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
     
-    /* 🤖 Hello, what tools, and rules will i use for this job?
+    /* Hello, what tools, and rules will i use for this job?
     */
 
     const double COST_PER_CUBIC_FOOT = 0.23;
@@ -29,7 +29,7 @@ int main() {
         profit;
 
         cout << setprecision(2) << fixed << showpoint;
-    /* 🤖 okay thanks, how do i use these?
+    /* Okay thanks, how do i use these?
     */
    // Prompt
     cout << "Please enter the dimensions of the crate in feet:\n";
