@@ -1,3 +1,11 @@
+/*
+CSC 134
+M2HW - Bronze
+CSC 134
+davisc
+10/9/25
+
+*/
 #include <iostream>
 using namespace std;
 
