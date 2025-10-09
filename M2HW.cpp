@@ -12,6 +12,7 @@ int main() {
 
     int acc_num = 121348;
 
+    cout << "Question 1 💰";
     cout << "Please enter your first name: ";
 
     cin >> first_name;
@@ -53,6 +54,12 @@ int main() {
     cout << "Account number: " << acc_num << endl;
 
     cout << "Final balance: " << balance << endl;
+
+    cout << "Question 2 🎉";
+    cout << "Lets go FTCC!" endl;
+    cout << "Lets go FTCC!" endl;
+    cout << "Lets go FTCC!" endl;
+    cout << "🎉Lets go Trojans!🎉" endl;
 
 
 return 0;
