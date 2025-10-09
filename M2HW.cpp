@@ -6,7 +6,7 @@ int main() {
     /*
     INPUT
     Name*/
-    string first_name, last_name, full_name;
+    string first_name, last_name, full_name, deposit, withdrawal;
 
     int acc_num = 121348;
 
@@ -18,7 +18,7 @@ int main() {
 
     cin >> last_name;
 
-    full_name = first_name + " " + last_name << endl;
+    full_name = first_name + " " + last_name;
 
 
     /*Int account balance*/
@@ -50,7 +50,7 @@ int main() {
 
     cout << "Account number: " << acc_num << endl;
 
-    cout << "Final balance: " balance << endl;
+    cout << "Final balance: " << balance << endl;
 
 
 return 0;
