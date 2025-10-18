@@ -8,6 +8,7 @@ davisc
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 int main() {
@@ -24,10 +25,10 @@ cout << endl;
     cout << "Shooting the red barrel causes it to explode" << endl;
   }
   else if (choice == "green") {
-    cout << "Shooting the green barrel causes it to leak acid melting its surrounding area" endl;
+    cout << "Shooting the green barrel causes it to leak acid melting its surrounding area" << endl;
   }
   else if (choice == "blue") {
-    cout << "Shooting the blue barrel causes it to leak Liquid Nitrogen freezing its surrounding area" endl;
+    cout << "Shooting the blue barrel causes it to leak Liquid Nitrogen freezing its surrounding area" << endl;
   }
   else {
     cout << "That's not one of the choices provided" << endl;
