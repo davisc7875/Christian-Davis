@@ -10,11 +10,11 @@ davisc
 #include <iomanip>
 using namespace std;
 
+int main() {
+
 string red, green, blue;
 int choice
 
-int main() 
-{
 cout << "Before you are a red, green, and blue barrel," << endl;
 cout << "Choose one of the barrels to shoot by typing their color." << endl;
 
@@ -25,10 +25,10 @@ cout << endl;
     cout << "Shooting the red barrel causes it to explode" << endl;
   }
   else if (green == choice) {
-    cout << "Shooting the green barrel causes it to leak acid melting its surrounding area"
+    cout << "Shooting the green barrel causes it to leak acid melting its surrounding area" endl;
   }
   else if (blue == choice) {
-    cout << "Shooting the blue barrel causes it to leak Liquid Nitrogen freezing its surrounding area"
+    cout << "Shooting the blue barrel causes it to leak Liquid Nitrogen freezing its surrounding area" endl;
   }
   else {
     cout << "That's not one of the choices provided" << endl;
