@@ -13,7 +13,7 @@ using namespace std;
 int main() {
 
 string red, green, blue;
-int choice
+int choice;
 
 cout << "Before you are a red, green, and blue barrel," << endl;
 cout << "Choose one of the barrels to shoot by typing their color." << endl;
