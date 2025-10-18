@@ -13,23 +13,24 @@ using namespace std;
 //Set up grade variable
 double grade;
 
+int main() {
 //Ask user to input grade
-cout << "Enter your numerical grade:" << endl;
+cout << "Enter your numerical grade: ";
 
 cin >> grade;
 
 //Process the entered grade and output the letter grade
 
 cout << endl;
-int main() {
+
     if (grade <= 100 && grade >= 90) {
-    cout << "Your letter grade is: A" << endl;
+        cout << "Your letter grade is: A" << endl;
 }
     else if (grade <= 89 && grade >= 80) {
     cout << "Your letter grade is: B" << endl;
 }
     else if (grade <= 79 && grade >= 70) {
-    cout << "Your letter grade is: B" << endl;
+    cout << "Your letter grade is: C" << endl;
 } 
     else if (grade <= 69 && grade >= 60) {
     cout << "Your letter grade is: D" << endl;
