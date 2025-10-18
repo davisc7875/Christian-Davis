@@ -36,7 +36,7 @@ cout << endl;
     cout << "Your letter grade is: D" << endl;
 }
     else if (grade <= 59 && grade >= 0) {
-    cout << "Your letter grade is: D" << endl;
+    cout << "Your letter grade is: F" << endl;
 }
     else {
     cout << "Your number grade is outside the valid range" << endl;
