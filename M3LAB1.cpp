@@ -12,22 +12,21 @@ using namespace std;
 
 int main() {
 
-string red, green, blue;
-int choice;
+string choice;
 
 cout << "Before you are a red, green, and blue barrel," << endl;
-cout << "Choose one of the barrels to shoot by typing their color." << endl;
+cout << "Choose one of the barrels to shoot by typing their color (in all lowercase)." << endl;
 
 cin >> choice;
 cout << endl;
 
-  if (red == choice) {
+  if (choice == "red") {
     cout << "Shooting the red barrel causes it to explode" << endl;
   }
-  else if (green == choice) {
+  else if (choice == "green") {
     cout << "Shooting the green barrel causes it to leak acid melting its surrounding area" endl;
   }
-  else if (blue == choice) {
+  else if (choice == "blue") {
     cout << "Shooting the blue barrel causes it to leak Liquid Nitrogen freezing its surrounding area" endl;
   }
   else {
