@@ -9,21 +9,21 @@
 using namespace std;
 int main() {
 
-    string choice
+    string choice;
     cout << "Hi! I'm a C++ program, are you having a good day or a bad day?" << endl;    
 
     cin >> choice;
     cout << endl;
-
-  if (choice == "good") {
+    
+    if (choice == "good") {
     cout << "Thats good to hear! I hope the rest of yur day goes well." << endl;
-  }
-  else if (choice == "bad") {
+}
+    else if (choice == "bad") {
     cout << "Im sorry to hear that, hope it gets better soon." << endl;
-  }
-  else {
+}
+    else {
     cout << "No worries if you're not sure." << endl;
-  }
+}
 
   cout << "Thank you for playing!" << endl;
   return 0;
