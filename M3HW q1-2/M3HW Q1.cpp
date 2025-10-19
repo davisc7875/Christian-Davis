@@ -25,7 +25,5 @@ int main() {
     else {
     cout << "No worries if you're not sure." << endl;
 }
-
-  cout << "Thank you for playing!" << endl;
   return 0;
 }
