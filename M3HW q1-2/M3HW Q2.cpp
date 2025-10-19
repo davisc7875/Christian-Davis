@@ -25,7 +25,7 @@ int main() {
 
     pg_ans = num1 + num2;
 
-    cout << "What is " << num1 << "plus " << num2 << "?" << endl;
+    cout << "What is " << num1 << " plus " << num2 << "?" << endl;
 
     cin >> user_ans;
 
