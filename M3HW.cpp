@@ -1,5 +1,5 @@
 // CSC 134
-// M3HW - Silver
+// M3HW - Bronze
 // Christian Davis
 // 10/19/25
 
@@ -27,7 +27,4 @@ int main() {
 
   cout << "Thank you for playing!" << endl;
   return 0;
-}
-
-return 0;
 }
