@@ -13,7 +13,7 @@ int main()
     cout << "-----------------------------\n";
     while (num <= MAX_NUMBER)
     {
-        cout << "hello" << num << "\t\t" <<  (num * num) << endl;
+        cout << "Hello " << num << "\t\t" <<  (num * num) << endl;
         num++;
     }
         cout << "That's all!\n";
