@@ -9,7 +9,7 @@ using namespace std;
 int main(){
     cout << "Dice Roll" << endl;
     int session = time(0);
-    cout << "Session:" << endl;
+    cout << "Session:" << session << endl;
     srand(session);
 
     //A dice has 6 sides so we will set the max count to 6
