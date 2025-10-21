@@ -32,22 +32,22 @@ int main(){
     // 2 and 12 loses
 
     if (total == 7) {
-        cout << "Lucky 7!" << endl;
+        cout << "Lucky 7! Nice roll! you win!" << endl;
     }
     else if (total == 11) {
-        cout << "Heaven 11!"
+        cout << "Heaven 11! you win!" << endl;
     }
     else if (total == 2) {
-        cout << "Ahh! Snake eyes! too bad you lose!"
+        cout << "Ahh! Snake eyes! too bad you lose!" << endl;
     } 
     else if (total == 3) {
-        cout << "Oh no! Unlucky 3! You lose!"
+        cout << "Oh no! Unlucky 3! You lose!" << endl;
     } 
     else if (total == 12) {
-        cout << "Watch out!! (crash!!) Boxcars.. Sorry you lose."
+        cout << "Watch out!! (crash!!) Boxcars.. Sorry you lose." << endl;
     } 
     else {
-        cout <<"Your points: " << total
+        cout <<"Your points: " << total << endl;
     }
 
 
