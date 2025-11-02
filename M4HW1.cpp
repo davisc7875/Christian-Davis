@@ -27,7 +27,7 @@ for (int i = 1; i <= 12; i++) {
 }
 
 else {
-    cout << "Your number grade is larger than 12" << endl;
+    cout << "Your number is larger than 12" << endl;
 }
 
 }
