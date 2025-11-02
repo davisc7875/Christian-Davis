@@ -12,6 +12,7 @@ Silver rank
 #include <iostream>
 using namespace std;
 
+int main() {
 int num1, num2, answer;
 cout << "Enter your number: " << endl;
 cin >> num1;
@@ -19,5 +20,6 @@ cin >> num1;
 for (int i = 1; i <= 12; i++) {
     answer = num1 * i;
     cout << num1 << " x " << i << " is " << answer << endl;
-    
+
+}
 }
