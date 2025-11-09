@@ -31,7 +31,7 @@ int main()
        cout << "Hi from say_hi()! " << endl;
        return;
    }
-   int answer() {
+   int give_answer() {
        return 35;
    }
    int double_number(int num) {
