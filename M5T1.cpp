@@ -13,6 +13,8 @@ int give_answer ();
 int double_number (int num);
 
 //Lets start
+#include <iostream>
+using namespace std;
 int main()
 {
     cout << "Hi from main()!" << endl;
