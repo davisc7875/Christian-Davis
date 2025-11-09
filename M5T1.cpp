@@ -37,7 +37,5 @@ int main()
    int double_number(int num) {
        int new_num = num * 2;
        return new_num;
-
-    return 0;
    }
    
