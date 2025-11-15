@@ -9,7 +9,7 @@ void printResult(int number, int result) {
 int growth (int number) {
     int result = pow((double)2, (double)number);
 
-    return result
+    return result;
 }
 int main() {
     int number, result;
