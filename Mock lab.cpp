@@ -1,16 +1,31 @@
+#include <iostream>
+using namespace std;
+
+/*
+CSC 134
+M5LAB1 - Choose Your Own Adventure
+[name]
+[date]
+This template serves as a starting point
+for your own program. We'll be using
+void functions to tell a simple story,
+where the user gets to make choices.
+
+You can fork this template by clicking on the name above, then click the three
+dots on the top right, and click 'fork repl'. This makes a copy for you to use.
+*/
+
 // Function Prototypes
 // Any functions you make will need to
 // be listed here, in this format, at the top.
 // This is so the compiler knows to save
 // room for them in the final program.
 
-#include <iostream>
-using namespace std;
-
 void main_menu();
 void choice_front_door();
 void choice_back_door();
 void choice_go_home();
+void choice_enter_window();
 // TODO: add more choices here
 
 int main() {
@@ -37,9 +52,9 @@ void main_menu() {
   if (1 == choice) {
     choice_front_door();
   } else if (2 == choice) {
-    // call choice 2 here
+    choice_sneak_back_door();
   } else if (3 == choice) {
-    // call choice 3 here
+    choice_go_home();
   } else if (4 == choice) {
     cout << "Ok, quitting game" << endl;
     return; // go back to main()
@@ -70,6 +85,25 @@ void choice_front_door() {
   }
 }
 
+void choice_sneak_back_door() {
+  cout << "You sneak around the right side of the house to the back door." << endl;
+  cout << "As you lay low you notice the house's right window is missing its glass, large enough to climb in. " << endl;
+  cout << "Do you:" << endl;
+  cout << "1. Climb through the window" << endl;
+  cout << "2. Go home" << endl;
+  int choice;
+  cout << "Choose: ";
+  cin >> choice;
+  if (1 == choice) {
+    choice_enter_window();
+  } else if (2 == choice) {
+    choice_go_home();
+  }
+}
+
+
 void choice_back_door() { cout << "TODO: Write something here" << endl; }
 
-void choice_go_home() { cout << "TODO: Write something here" << endl; }
+void choice_go_home() { cout << "You go home." << endl; }
+
+void choice_enter_window() { cout << "You entered the house." << endl; }
