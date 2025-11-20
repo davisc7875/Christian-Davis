@@ -25,6 +25,7 @@ void main_menu();
 void choice_front_door();
 void choice_back_door();
 void choice_go_home();
+void choice_sneak_back_door();
 void choice_enter_window();
 // TODO: add more choices here
 
