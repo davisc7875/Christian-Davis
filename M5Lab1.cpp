@@ -1,42 +1,105 @@
 /*
-M3LAB1
 CSC 134
-davisc
-10/18/25
-
+M5LAB1 - Abandoned House
+[Christian Davis]
+[11/20/25]
 */
 
 #include <iostream>
-#include <iomanip>
-#include <string>
 using namespace std;
 
+void main_menu();
+void choice_front_door();
+void choice_back_door();
+void choice_call_out();
+void choice_garden();
+void choice_go_home();
+void choice_sneak_back_door();
+void choice_enter_window();
+
 int main() {
-
-string choice;
-
-cout << "You have 4 paths before you," << endl;
-cout << "Choose one of the paths to see where it leads." << endl;
-
-cin >> choice;
-cout << endl;
-
-  if (choice == "Path 1") {
-    cout << "Path 1 leads to green pastures" << endl;
-  }
-  else if (choice == "Path 2") {
-    cout << "Path 2 leads to a winter wonderland" << endl;
-  }
-  else if (choice == "Path 3") {
-    cout << "Path 3 leads to a volcanic mountain" << endl;
-  }
-    else if (choice == "Path 4") {
-    cout << "Path 4 leads to a radioactive forest" << endl;
-  }
-  else {
-    cout << "That's not one of the choices provided" << endl;
-  }
-
-  cout << "Thank you for playing!" << endl;
-  return 0;
+  cout << "M5LAB1 - Choose Your Own Adventure" << endl;
+  // load up the main menu
+  main_menu();
+  // when we return here, we're done
+  cout << "Thanks for playing!" << endl;
+  return 0; // finished with no errors
 }
+
+void main_menu() {
+  // Write a simple menu that lets the user choose 1,2, or 3, or 4 to quit.
+  cout << "Main Menu" << endl;
+  cout << "You're in front of a spooky old house..." << endl;
+  cout << "Do you:" << endl;
+  cout << "1. Try the front door" << endl;
+  cout << "2. Sneak around back" << endl;
+  cout << "3. Forget it, and go home" << endl;
+  cout << "4. Call out and see if anyone's home" << endl;
+  cout << "5. Try the garden on the left" << endl;
+  cout << "6. [Quit]" << endl;
+  cout << "Choose: ";
+  int choice;
+  cin >> choice;
+  if (1 == choice) {
+    choice_front_door();
+  } else if (2 == choice) {
+    choice_sneak_back_door();
+  } else if (3 == choice) {
+    choice_go_home();
+    } else if (4 == choice) {
+    choice_call_out();
+    } else if (5 == choice) {
+    choice_garden();
+  } else if (6 == choice) {
+    cout << "Ok, quitting game" << endl;
+    return; // go back to main()
+  } else {
+    cout << "That's not a valid choice, please try again." << endl;
+    cin.ignore(); // clear the user input
+    main_menu();  // try again
+  }
+}
+
+
+void choice_front_door() {
+  cout << "Try the front door." << endl;
+  cout << "It's locked. " << endl;
+  cout << "Do you:" << endl;
+  cout << "1. Check around back" << endl;
+  cout << "2. Give up and go home" << endl;
+  int choice;
+  cout << "Choose: ";
+  cin >> choice;
+  if (1 == choice) {
+    choice_back_door();
+  } else if (2 == choice) {
+    choice_go_home();
+  }
+}
+
+void choice_sneak_back_door() {
+  cout << "You sneak around the right side of the house to the back door." << endl;
+  cout << "As you lay low you notice the house's right window is missing its glass, large enough to climb in. " << endl;
+  cout << "Do you:" << endl;
+  cout << "1. Climb through the window" << endl;
+  cout << "2. Go home" << endl;
+  int choice;
+  cout << "Choose: ";
+  cin >> choice;
+  if (1 == choice) {
+    choice_enter_window();
+  } else if (2 == choice) {
+    choice_go_home();
+  }
+}
+
+
+void choice_back_door() { cout << "The back door is also locked" << endl; }
+
+void choice_go_home() { cout << "You go home." << endl; }
+
+void choice_enter_window() { cout << "You entered the house." << endl; }
+
+void choice_call_out() {cout << "you called out but recieved no answer." << endl;}
+
+void choice_garden() { cout << " you walk over to the garden and find rotted vegetables and wilted flowers, \n you decide its time to go home." << endl;}
