@@ -102,9 +102,6 @@ void choice_sneak_back_door() {
   }
 }
 
-void choice_go_home() {
-    choice_go_home();
-  }
 
 void choice_back_door() { cout << "TODO: Write something here" << endl; }
 
