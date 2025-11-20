@@ -3,6 +3,10 @@
 // be listed here, in this format, at the top.
 // This is so the compiler knows to save
 // room for them in the final program.
+
+#include <iostream>
+using namespace std;
+
 void main_menu();
 void choice_front_door();
 void choice_back_door();
