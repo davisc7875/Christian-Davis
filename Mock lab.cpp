@@ -24,6 +24,8 @@ dots on the top right, and click 'fork repl'. This makes a copy for you to use.
 void main_menu();
 void choice_front_door();
 void choice_back_door();
+void choice_call_out();
+void choice_garden();
 void choice_go_home();
 void choice_sneak_back_door();
 void choice_enter_window();
@@ -46,7 +48,9 @@ void main_menu() {
   cout << "1. Try the front door" << endl;
   cout << "2. Sneak around back" << endl;
   cout << "3. Forget it, and go home" << endl;
-  cout << "4. [Quit]" << endl;
+  cout << "4. Call out and see if anyone's home" << endl;
+  cout << "5. Try the garden on the left" << endl;
+  cout << "6. [Quit]" << endl;
   cout << "Choose: ";
   int choice;
   cin >> choice;
@@ -56,7 +60,11 @@ void main_menu() {
     choice_sneak_back_door();
   } else if (3 == choice) {
     choice_go_home();
-  } else if (4 == choice) {
+    } else if (4 == choice) {
+    choice_call_out();
+    } else if (5 == choice) {
+    choice_garden();
+  } else if (6 == choice) {
     cout << "Ok, quitting game" << endl;
     return; // go back to main()
   } else {
@@ -103,8 +111,12 @@ void choice_sneak_back_door() {
 }
 
 
-void choice_back_door() { cout << "TODO: Write something here" << endl; }
+void choice_back_door() { cout << "The back door is also locked" << endl; }
 
 void choice_go_home() { cout << "You go home." << endl; }
 
 void choice_enter_window() { cout << "You entered the house." << endl; }
+
+void choice_call_out() {cout << "you called out but recieved no answer." << endl;}
+
+void choice_garden() { cout << " you walk over to the garden and find rotted vegetables and wilted flowers, \n you decide its time to go home." << endl;}
