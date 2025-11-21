@@ -19,7 +19,6 @@ int main(){
           
    length = getLength();
    width = getWidth();
-
    area = getArea(length, width);
 
    displayData(length, width, area);
@@ -30,12 +29,14 @@ int main(){
 double getLength() {
     double len;
     cout << "Please enter your length: ";
+    cin >> len;
     return len;
 }
 
 double getWidth() {
     double wid;
     cout << "Please enter your width: ";
+    cin >> wid;
     return wid;
 }
 
