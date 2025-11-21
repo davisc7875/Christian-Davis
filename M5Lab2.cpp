@@ -1,5 +1,9 @@
-// M5LAB2
-// Header goes here
+/*
+CSC 134
+M5LAB1 - Abandoned House
+[Christian Davis]
+[11/21/25]
+*/
 
 #include <iostream>
 #include <limits>
