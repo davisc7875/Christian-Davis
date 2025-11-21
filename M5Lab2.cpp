@@ -30,11 +30,13 @@ int main(){
 double getLength() {
     double len;
     cout << "Please enter your length: ";
+    return len;
 }
 
 double getWidth() {
     double wid;
     cout << "Please enter your width: ";
+    return wid;
 }
 
 double getArea(double length, double width) {
@@ -45,6 +47,7 @@ void displayData(double length, double width, double area) {
     cout << "Length: " << length << '\n';
     cout << "Width : " << width  << '\n';
     cout << "Area  : " << area   << '\n';
+}
 
 //***************************************************
 // TODO: write the getLength, getWidth, getArea,    *
