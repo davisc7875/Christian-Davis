@@ -1,56 +1,57 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int number, counter;
+    int number, counter = 0;
     string rnumeral;
-
+    
      while (counter < 1) {
 cout << "Enter a number between 1 and 10" << endl;
 cin >> number;
 
-if (number == 1)
-{
-    rnumeral == "I";
+if (number == 1){
+    rnumeral = "I";
 }
 else if (number == 2)
 {
-    rnumeral == "II";
+    rnumeral = "II";
 }
 else if (number == 3)
 {
-    rnumeral == "III";
+    rnumeral = "III";
 }
 else if (number == 4)
 {
-    rnumeral == "IV";
+    rnumeral = "IV";
 }
 else if (number == 5)
 {
-    rnumeral == "V";
+    rnumeral = "V";
 }
 else if (number == 6)
 {
-    rnumeral == "VI";
+    rnumeral = "VI";
 }
 else if (number == 7)
 {
-    rnumeral == "VII";
+    rnumeral = "VII";
 }
 else if (number == 8)
 {
-    rnumeral == "VIII";
+    rnumeral = "VIII";
 }
 else if (number == 9)
 {
-    rnumeral == "IX";
+    rnumeral = "IX";
 }
 else if (number == 10)
 {
-    rnumeral == "X";
+    rnumeral = "X";
 }
 else {
     cout << "Your number is over or under the numbers 1 - 10" << endl;
 }
+counter++;
+     }
 cout << "The Roman Numeral version of " << number <<  "is" << rnumeral << endl;
 
 return 0;
