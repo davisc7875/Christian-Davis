@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int number, counter = 0;
-    string rnumeral;
+    string rnumeral, error;
     
      while (counter < 1) {
 cout << "Enter a number between 1 and 10" << endl;
@@ -49,10 +49,12 @@ else if (number == 10)
 }
 else {
     cout << "Your number is over or under the numbers 1 - 10" << endl;
+    rnumeral = "error";
 }
 counter++;
      }
+     if (rnumeral != error){
 cout << "The Roman Numeral version of " << number <<  " is " << rnumeral << endl;
-
+     }
 return 0;
 }
