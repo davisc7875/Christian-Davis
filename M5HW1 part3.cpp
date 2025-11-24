@@ -52,7 +52,7 @@ else {
 }
 counter++;
      }
-cout << "The Roman Numeral version of " << number <<  "is" << rnumeral << endl;
+cout << "The Roman Numeral version of " << number <<  " is " << rnumeral << endl;
 
 return 0;
 }
