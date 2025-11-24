@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int number;
+    int number, counter;
     string rnumeral;
 
+     while (counter < 1) {
 cout << "Enter a number between 1 and 10" << endl;
 cin >> number;
 
