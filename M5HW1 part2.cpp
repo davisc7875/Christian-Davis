@@ -18,7 +18,7 @@ int main() {
     if (length > 0 && width > 0 && height > 0)
 {
     volume = length * width * height;
-    cout << "The block's volume is" << volume << endl;
+    cout << "The block's volume is " << volume << endl;
     counter++;
 }
 else {
