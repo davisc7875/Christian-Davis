@@ -12,7 +12,7 @@ string month, january , february, march;
 double jan_rf, feb_rf, mar_rf, avg_rainfall;
 
 while (counter < 3) {
-cout << "Enter a month from January to March: ";
+cout << "Enter a month: January February, or March: ";
 cin >> month;
 
 
@@ -33,7 +33,7 @@ if (month == "January") {
   }
 }
 avg_rainfall = ((jan_rf + feb_rf + mar_rf) / 3);
-cout << "the average rainfall for January, February, and March is " << avg_rainfall << "inches." << endl;
+cout << "the average rainfall for January, February, and March is " << avg_rainfall << " inches." << endl;
 
 return 0;
 };
