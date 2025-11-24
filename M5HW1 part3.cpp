@@ -53,7 +53,7 @@ else {
 }
 counter++;
      }
-     if (rnumeral != error){
+     if (rnumeral != "error"){
 cout << "The Roman Numeral version of " << number <<  " is " << rnumeral << endl;
      }
 return 0;
