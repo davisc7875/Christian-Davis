@@ -19,19 +19,21 @@ cin >> month;
 if (month == "January") {
     cout << "Enter rainfall for January: ";
     cin >> jan_rf;
+    counter++;
   } else if (month == "February") {
     cout << "Enter rainfall for February: ";
     cin >> feb_rf;
+    counter++;
   } else if (month == "March") {
     cout << "Enter rainfall for March: ";
     cin >> mar_rf;
+    counter++;
   } else {
     cout << "That's not a valid choice, please try again." << endl;
   }
 }
 avg_rainfall = ((jan_rf + feb_rf + mar_rf) / 3);
 cout << "the average rainfall for January, February, and March is " << avg_rainfall << "inches." << endl;
-counter++;
 
 return 0;
 };
