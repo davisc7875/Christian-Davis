@@ -3,7 +3,7 @@ CSC-134
 M5T1 - Basic Functions
 davisc
 12/3/25
-My (human) review:
+My (human not ai) review:
 The purpose of these 2 versions it to show a program using a simple loop and one using an array.
 Both gather the amount of cars each day, add them all up to get a total, then divide by the number of days to get the average
 once its finished with the first method main calls the second one
